@@ -16,7 +16,7 @@ link = "Hard"
 
 [assets.'toolchain.cmake']
 path = "{{spaces.sysroot}}/cmake/arm-none-eabi-toolchain.cmake"
-link = "Hard"
+type = "HardLink"
 
 [env]
 vars.SYSROOT_ARM_NONE_EABI_TOOLCHAIN_CMAKE = "{{spaces.sysroot}}/cmake/arm-none-eabi-toolchain.cmake"
