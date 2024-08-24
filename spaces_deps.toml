@@ -13,3 +13,10 @@ add_prefix = "{{spaces.sysroot}}"
 strip_prefix = "arm-gnu-toolchain-12.2.rel1-darwin-x86_64-arm-none-eabi"
 excludes = ["arm-gnu-toolchain-12.2.rel1-darwin-x86_64-arm-none-eabi/share/**"]
 link = "Hard"
+
+[assets.'toolchain.cmake']
+path = "{{spaces.sysroot}}/cmake/arm-none-eabi-toolchain.cmake"
+link = "Hard"
+
+[env]
+vars.SYSROOT_ARM_NONE_EABI_TOOLCHAIN_CMAKE = "{{spaces.sysroot}}/cmake/arm-none-eabi-toolchain.cmake"
