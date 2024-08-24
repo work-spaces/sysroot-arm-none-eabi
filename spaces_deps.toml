@@ -15,7 +15,7 @@ excludes = ["arm-gnu-toolchain-12.2.rel1-darwin-x86_64-arm-none-eabi/share/**"]
 link = "Hard"
 
 [assets.'toolchain.cmake']
-path = "{{spaces.sysroot}}/cmake/arm-none-eabi-toolchain.cmake"
+path = "sysroot/cmake/arm-none-eabi-toolchain.cmake"
 type = "HardLink"
 
 [env]
