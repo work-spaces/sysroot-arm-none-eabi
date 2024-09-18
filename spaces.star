@@ -2,7 +2,7 @@
 
 """
 
-add_prefix = "sysroot/bin"
+add_prefix = "sysroot"
 link_type = "Hard"
 
 macos_aarch64 = {
