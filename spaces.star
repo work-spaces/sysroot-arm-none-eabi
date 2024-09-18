@@ -47,5 +47,6 @@ checkout.update_env(
         "vars": {
             "SYSROOT_ARM_NONE_EABI_TOOLCHAIN_CMAKE": "sysroot/cmake/arm-none-eabi-toolchain.cmake",
         },
-    },
+        "paths": []
+    }
 )
