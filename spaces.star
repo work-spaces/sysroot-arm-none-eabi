@@ -31,7 +31,7 @@ checkout.add_platform_archive(
     },
 )
 
-toolchain_contents = fs.read("{}/toolchain.cmake".format(info.current_workspace_path()))
+toolchain_contents = fs.read_file_to_string("{}/toolchain.cmake".format(info.current_workspace_path()))
 
 checkout.add_asset(
     rule = {"name": "toolchain-cmake"},
