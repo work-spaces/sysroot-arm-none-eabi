@@ -26,8 +26,8 @@ macos_x86_64 = {
 checkout.add_platform_archive(
     rule = {"name": "arm-none-eabi-toolchain"},
     platforms = {
-        "macos_x86_64": macos_x86_64,
-        "macos_aarch64": macos_aarch64,
+        "macos-x86_64": macos_x86_64,
+        "macos-aarch64": macos_aarch64,
     },
 )
 
